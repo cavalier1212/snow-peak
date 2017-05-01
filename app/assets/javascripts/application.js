@@ -17,3 +17,26 @@
 //= require bootstrap/dropdown
 //= require bootstrap/modal
 //= require_tree .
+
+
+$(window).scroll(function() { // check if scroll event happened
+        if ($(document).scrollTop() > 50) {
+            $(".navbar-fixed-top").css("background-color", "#212121");
+        } else {
+            $(".navbar-fixed-top").css("background-color", "transparent");
+        }
+    });
+
+    <script>
+      $(document).ready(function(){
+         $(".navbar-fixed-top").css("background-color", "transparent");
+         $(".navbar-fixed-top").css("border-color", "transparent");
+      $(window).scroll(function() {
+         if ($(document).scrollTop() > 50) {
+           $(".navbar-fixed-top").css("background-color", "#212121");
+         } else {
+           $(".navbar-fixed-top").css("background-color", "transparent");
+         }
+       });
+      });
+    </script>

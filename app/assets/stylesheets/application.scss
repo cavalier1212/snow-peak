@@ -23,11 +23,12 @@
  //---------Navbar---------
 
  .navbar-default {
-     background-color: #212121;
-     border-color: #212121;
-     margin-bottom: 0;
-     border-radius: 0;
- }
+    background-color: #222222;
+    border-color: #222222;
+    margin-bottom: 100px;
+    border-radius: 0;
+    height: 60px;
+}
 
  .navbar-default .navbar-brand {
      color: #EF6C00;
@@ -87,13 +88,14 @@
       margin-bottom: 0px;
 
       .box-inner {
-          background-color: rgba(250, 250, 250, 0.69);
+          background-color: rgba(250, 250, 250, 0);
           padding-bottom: 5px;
           margin-top: 150px;
           margin-bottom: 150px;
       }
 
       .title {
+          color: #222;
           text-align: center;
           margin-bottom: 80px;
       }
@@ -118,8 +120,9 @@
    //---------Content---------
 
    .content-section-a {
+       color: #8990a2;
        padding: 50px 0;
-       background-color: #f8f8f8;
+       background-color: #002b36;;
    }
 
    .content-section-b {
@@ -153,7 +156,7 @@
        /* Set the fixed height of the footer here */
        height: 100px;
        background-color: #222222;
-       margin: 0 -15px;
+       margin: 1 -15px;
 
        p {
           color: white;
@@ -171,6 +174,8 @@
       /* Margin bottom by footer height */
       margin-bottom: 100px;
     }
+
+
 
     /****** LOGIN MODAL ******/
 .loginmodal-container {
