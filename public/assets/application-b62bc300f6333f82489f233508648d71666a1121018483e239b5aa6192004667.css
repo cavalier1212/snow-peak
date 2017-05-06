@@ -23156,7 +23156,7 @@ table .danger th,
   border-color: #222222;
   margin-bottom: 100px;
   border-radius: 0;
-  height: 60px;
+  height: 20px;
 }
 
 /* line 34, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
@@ -23224,7 +23224,7 @@ table .danger th,
 }
 /* line 91, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
 .box .box-inner {
-  background-color: rgba(250, 250, 250, 0);
+  background-color: rgba(250, 250, 250, 0.1);
   padding-bottom: 5px;
   margin-top: 150px;
   margin-bottom: 150px;
@@ -23255,14 +23255,14 @@ table .danger th,
 .content-section-a {
   color: #8990a2;
   padding: 50px 0;
-  background-color: #f3f3f3;
+  background-color: #ececec;
 }
 
 /* line 129, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
 .content-section-b {
   padding: 50px 0;
-  border-top: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
+  border-top: 0px solid #e7e7e7;
+  border-bottom: 0px solid #e7e7e7;
 }
 
 /* line 135, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
