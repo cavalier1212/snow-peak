@@ -10,13 +10,18 @@
 
   <body>
 
+    <%= render "common/flashes" %>
     <div class="container-fluid">
-      <%= render "common/navbar" %>
-      <%= render "common/flashes" %>
-    <%= yield %>
-  </div>
+       <div class="row">
+    <%= render "common/navbar" %>
+    <div style="margin-top:50px;">
+       <%= yield %>
+    </div>
+      </div>
+   </div>
 
   <%= render "common/footer" %>
+  <div style="margin-top:50px;"> </div>
 
   </body>
 </html>
