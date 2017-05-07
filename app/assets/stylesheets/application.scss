@@ -156,6 +156,10 @@ html {
       font-weight: 400;
   }
 
+  .img-responsive{
+  padding: 20px;
+  }
+
 
   //---------Footer---------
 
@@ -166,7 +170,7 @@ html {
      /* Set the fixed height of the footer here */
      height: 120px;
      background-color: #222222;
-     margin: 0 -20px;
+
 
      h4 {
         color: #6d6f75;
