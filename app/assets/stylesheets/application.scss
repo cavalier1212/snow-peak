@@ -86,7 +86,7 @@ html {
       margin-bottom: 0px;
 
       .box-inner {
-          background-color: rgba(250, 250, 250, 0.69);
+          background-color: rgba(250, 250, 250, 0.20);
           padding-bottom: 5px;
           margin-top: 150px;
           margin-bottom: 150px;
@@ -132,13 +132,19 @@ html {
 
   .content-section-a {
       padding: 50px 0;
-      background-color: #f8f8f8;
+      background-color: #e8e8e8;
   }
 
   .content-section-b {
       padding: 20px 0;
       border-top: 1px solid #e7e7e7;
       border-bottom: 1px solid #e7e7e7;
+      background-color: #efeeee;
+  }
+
+  .content-section-c{
+    padding: 50px 0;
+    background-color: #222222;
   }
 
   .section-heading-spacer {
@@ -156,25 +162,25 @@ html {
       font-weight: 400;
   }
 
+  .img-responsive {
+      display: inline
+
+  }
 
   //---------Footer---------
 
-  .footer {
+
+  footer {
      position: absolute;
-     bottom: 1;
+     bottom: 0;
      width: 100%;
      /* Set the fixed height of the footer here */
-     height: 120px;
+     height: 100px;
      background-color: #222222;
-     margin: 0 -20px;
+     margin: 0 -15px;
 
-     h4 {
-        color: #6d6f75;
-
+     p {
+        color: white;
+       margin-top: 30px;
      }
-     h5 {
-        color: #6d6f75;
-
-     }
-
     }
