@@ -15,14 +15,19 @@
             <%= render "common/flashes" %>
             <div class="row">
               <div class="col-md-2">
-                <ul class="nav nav-pills nav-stacked" style="max-width: 300px; padding-top:20px;">
-                  <li class="active"><%= link_to("Jobs", admin_jobs_path ) %> </li>
-               </ul>
+                <div class="sidebar">
+                  <ul class="nav nav-pills nav-stacked" style="max-width: 300px; padding-top:20px;">
+                    <li class="active"><%= link_to("Jobs", admin_jobs_path ) %> </li>
+                  </ul>
+                </div>
               </div>
 
-              <div class="col-md-10">
-                <%= yield %>
-              </div>
+                <div class="col-md-10">
+                  <div class="main-body">
+                    <%= yield %>
+                  </div>
+                </div>
+
            </div>
         </div>
 
