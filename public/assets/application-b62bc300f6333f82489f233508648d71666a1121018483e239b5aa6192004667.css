@@ -1,0 +1,259 @@
+
+/* line 26, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.navbar-default {
+  background-color: #222222;
+  border-color: #222222;
+  margin-bottom: 100px;
+  border-radius: 0;
+  height: 20px;
+}
+
+/* line 34, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.navbar-default .navbar-brand {
+  color: #EF6C00;
+  padding: 10px 15px;
+  line-height: 30px;
+}
+
+/* line 40, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #FF6F00;
+  background-color: transparent;
+}
+
+/* line 46, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #EF6C00;
+}
+
+/* line 50, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #FF6F00;
+  background-color: transparent;
+}
+
+/* line 56, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #FF6F00;
+  background-color: #FFE0B2;
+}
+
+/* line 63, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: #FFE0B2;
+  color: #212121;
+}
+
+/* line 70, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.navbar-fixed-top {
+  top: 0px;
+}
+
+/* line 74, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: fixed;
+  top: 0px;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+/* line 85, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.box {
+  background-image: url("http://i.imgur.com/Ya3T013.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+/* line 91, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.box .box-inner {
+  background-color: rgba(250, 250, 250, 0.1);
+  padding-bottom: 5px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+/* line 98, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.box .title {
+  color: #222;
+  text-align: center;
+  margin-bottom: 80px;
+}
+/* line 104, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.box .slogan {
+  color: #222;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 25px;
+  top: 12px;
+}
+/* line 113, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.box .lead {
+  margin-bottom: 60px;
+  text-align: center;
+  color: white;
+}
+
+/* line 123, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.content-section-a {
+  color: #8990a2;
+  padding: 50px 0;
+  padding-left: 0
+  background-color: #ececec;
+}
+
+/* line 129, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.content-section-b {
+  padding: 50px 0;
+  border-top: 0px solid #e7e7e7;
+  border-bottom: 0px solid #e7e7e7;
+}
+
+/* line 135, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+/* line 141, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.section-heading {
+  margin-bottom: 30px;
+}
+
+/* line 145, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.lead {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* line 153, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #222222;
+  color: #a7a7a7;
+  margin: 1 -15px;
+}
+/* line 162, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.footer p {
+  color: white;
+  margin-top: 30px;
+}
+
+/* line 169, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 174, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+
+/****** LOGIN MODAL ******/
+/* line 182, /Users/cavalier121/job2/job-listing/app/assets/stylesheets/application.scss */
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.login-help{
+  font-size: 12px;
+}
